@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(226, 248, 245);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  text-align: center;
+  letter-spacing:10px;
+
+}
+h2 {
+  text-align: center;
+}
+
+
+/* Top container - contains the entire login page */ 
+
+.container{    
+  height: 300px;
+  width: 300px;
+  background-color: rgb(170, 235, 228);
+  position: relative;
+  margin: auto;
+  margin-top: 150px;
+  border-color: grey;
+  border-style: solid ;
+  border-radius: 20px;
+  border-width: 5px;
+ 
+}
+
+
+.user-container {
+  position: absolute;
+  display: block;
+  margin-top: 20px;
+  margin-left: 30px;
+  
+}
+.pass-container{
+  position: absolute;
+  display: block;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+#btn-container {
+  position: absolute;
+  display: block;
+  margin-top: 120px;
+  margin-left: 30px;
+ 
+}
+
+
+
+/* Hidden messages for wrong password or username */
+#hidden-user{
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 35px;
+  color: red;
+  display: none;
+  
+}
+
+#hidden-pass{
+  position: absolute;
+  margin-top: 105px;
+  margin-left: 35px;
+  color: red;
+  display: none;
+}
+::placeholder{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#user{
+
+  height: 25px;
+  width: 200px;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: black;
+  background-color: aliceblue;
+
+}
+
+
+#pass{
+  
+  height: 25px;
+  width: 200px;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: black;
+  background-color: aliceblue;
+
+ 
+}
+#enter{
+ 
+  border-style: solid;
+  border-radius: 7px;
+  height: 40px;
+  width: 80px;
+  background-color: white;
+  transition-duration: 0.5s;
+  font-weight: bolder;
+  letter-spacing: 2px;
+
+}
+
+#enter:hover{
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  width: 90px;
+  height: 50px;
+  letter-spacing: 5px;
+}
+
+

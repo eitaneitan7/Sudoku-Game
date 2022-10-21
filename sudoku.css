@@ -1,0 +1,101 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+
+	
+  }
+
+  hr{
+	width: 500px;
+	border-style: dotted;
+	border-top: 0;
+	border-width: 5px;
+	border-color: lightgray;
+  }
+
+  h1{
+	letter-spacing: 20px;
+	
+  }
+
+  #errors{
+	color: rgb(170, 235, 228);
+  }
+
+  #board{
+	width: 450px;
+	height: 450px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+
+  }
+
+  .tile{
+	width: 48px;
+	height: 48px;
+	border: 1px solid lightgray;
+
+	/* Text */
+	font-size:  20px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+#digits{
+	width: 450px;
+	height: 50px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.number{
+	width: 39px;
+	height: 39px;
+	border: 1px solid black;
+	margin: 2px;
+
+	/* Text */
+	font-size:  20px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.number-selected {
+	background-color: rgb(170, 235, 228);
+}
+
+.tile-start {
+	background-color: whitesmoke;
+}
+
+.horizontal-line {
+	border-bottom: 1px solid black;
+}
+
+.vertical-line{
+	border-right: 1px solid black;
+}
+
+
+/* Buttons */
+
+.end-btn{
+	border-style: solid;
+	border-radius: 7px;
+	height: 50px;
+	width: 150px;
+	background-color: rgb(170, 235, 228);
+	margin-left: 20px;
+	margin-right: 20px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	font-size: larger;
+
+
+}
