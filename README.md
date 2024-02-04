@@ -35,7 +35,3 @@ To run this Sudoku web game locally:
 ## Contributing
 
 Feel free to contribute to this project by submitting bug fixes or enhancements. Fork the repository, make your changes, and create a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
